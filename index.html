@@ -1,17 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-    <title>LUIZ RAFAEL</title>
+    <title>Vôlei de Praia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h1>
-Aluno Luiz Rafael
-</h1>
-<p>
-  Ésta pagina de notícias de vôlei de praia atualizadas.
-</p>  
+    <header>
+        <div class="container">
+            <h1>Vôlei de Praia</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#regras">Regras</a></li>
+                    <li><a href="#jogadores">Jogadores</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Vôlei de Praia</h2>
+            <p>O vôlei de praia é uma modalidade esportiva...</p>
+        </div>
+    </section>
+
+    <section id="regras">
+        <div class="container">
+            <h2>Regras do Jogo</h2>
+            <p>As regras do vôlei de praia são...</p>
+        </div>
+    </section>
+
+    <section id="jogadores">
+        <div class="container">
+            <h2>Grandes Jogadores</h2>
+            <p>Conheça alguns dos grandes nomes...</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vôlei de Praia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
